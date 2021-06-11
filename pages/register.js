@@ -2,12 +2,27 @@
 //lets acquire the components needed to build this page from 'react-boostrap';
 
 import {Form, Button, Container} from 'react-bootstrap'
+import View from '../components/View';
+
+//lets create an anonynous function and declare it ad the default export of this document.
+export default () => {
+	return(
+	   <View title="Register Account">
+	     <Register />
+	   </View>
+	)
+}
+
+//POSSIBLE WEEKEND TASK:
+// => create a Home page/landing page for your budget tracker (feauture/ display functionalities of the app.)
+//=> another stretch goal for the register page (create a logic that will require the user to choose a password that will contain both alphanumeric characters, one special character, min=8 , max=16)
+
 
 //create a function that will describe the structure of our component
-export default function Register() {
+const Register = () => {
 	return(
-		<Container className="mt-5">
-		    <h1 className="mt-3">Register Page </h1>
+		<Container>
+		    <h1>Register Page </h1>
 			<Form>
 			  {/*first Name*/}
 			   <Form.Group>
