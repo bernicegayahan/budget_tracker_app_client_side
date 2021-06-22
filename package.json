@@ -9,9 +9,12 @@
   },
   "dependencies": {
     "bootstrap": "^5.0.1",
+    "chart.js": "^2.9.3",
+    "moment": "^2.29.1",
     "next": "10.x",
     "react": "17.x",
     "react-bootstrap": "^1.6.1",
+    "react-chartjs-2": "^2.11.1",
     "react-dom": "17.x",
     "sweetalert2": "^11.0.16"
   }
