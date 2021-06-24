@@ -41,7 +41,7 @@ const NewCategoryForm = () => {
             },
             body: JSON.stringify({
                 name: categoryName,
-                typeName: typeName
+                type: typeName
             }) 
         }
 
