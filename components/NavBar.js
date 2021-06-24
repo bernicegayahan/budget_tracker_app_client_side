@@ -12,6 +12,18 @@ export default () => {
 	  <Link href="/register">
 	    <a className="nav-link">Register</a>
 	  </Link>
+	  <Link href="/user/categories">
+	    <a className="nav-link">Categories</a>
+	  </Link>
+	  <Link href="/user/categories/new">
+	    <a className="nav-link">New Category</a>
+	  </Link>
+	  <Link href="/user/records">
+	    <a className="nav-link">Records</a>
+	  </Link>
+	  <Link href="/user/records/new">
+	    <a className="nav-link">Create Record</a>
+	  </Link>
 	</Navbar>
 	)
 }
