@@ -52,7 +52,7 @@ const NewCategoryForm = () => {
                Swal.fire('Category Added','The new Category has been successfully Created', 'success')
                Router.push('/user/categories')
             } else {
-              Swal.fire('Operation Failed','Something went wrong', 'error')
+                Swal.fire('Operation Failed','Uh oh :( Something went wrong', 'error')
             }
         })
     }
@@ -71,7 +71,7 @@ const NewCategoryForm = () => {
                     <option value="Expense">Expense</option>
                 </Form.Control>
             </Form.Group>
-            <Button variant="primary" type="submit">Submit</Button>
+            <Button variant="warning" type="submit">Submit</Button>
         </Form>
     )
 }

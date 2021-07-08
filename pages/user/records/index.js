@@ -24,28 +24,29 @@ export default () => {
     )
 }
 
-const RecordsView = () => {   
+const RecordsView = () => {
     return (
         <>
-              
-                        <Card className="mb-3">
-                            <Card.Body>
-                                <Row>
-                                    <Col xs={ 6 }>
-                                        <h5></h5>
-                                        <h6>
-                                          <span></span> 
-                                        </h6>
-                                        <p></p>
-                                    </Col>
-                                    <Col xs={ 6 } className="text-right">
-                                        <h6></h6>
-                                        <span></span>
-                                    </Col>
-                                </Row>
-                            </Card.Body>
-                        </Card>
-                    
+            return (
+            <Card className="mb-3">
+                <Card.Body>
+                    <Row>
+                        <Col xs={6}>
+                            <h5></h5>
+                            <h6>
+                                <span></span>
+                            </h6>
+                            <p></p>
+                        </Col>
+                        <Col xs={6} className="text-right">
+                            <h6></h6>
+                            <span></span>
+                        </Col>
+                    </Row>
+                </Card.Body>
+            </Card>
+            )
         </>
     )
 }
+

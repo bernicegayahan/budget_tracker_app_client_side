@@ -84,7 +84,7 @@ const NewRecordForm = () => {
                 <Form.Label>Description:</Form.Label>
                 <Form.Control type="text" placeholder="Enter description" required/>
             </Form.Group>
-            <Button variant="primary" type="submit">Submit</Button>
+            <Button variant="warning" type="submit">Submit</Button>
         </Form>
     )
 }
